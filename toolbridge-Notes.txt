@@ -1,5 +1,5 @@
 
-
+Tool-bridge
 
 
 git clone https://github.com/oct4pie/toolbridge.git
@@ -14,5 +14,17 @@ gedit .env
 # after you edit your env file then...
 
 npm start
+
+
+or use
+
+./start.sh
+
+
+to auto start this use crontab
+
+crontab -e
+
+@reboot sleep 290 && /home/<USERNAME-HERE>/Documents/Scripts/AI/toolbridge/start.sh
 
 
