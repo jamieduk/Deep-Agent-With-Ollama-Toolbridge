@@ -1,0 +1,18 @@
+
+
+
+
+git clone https://github.com/oct4pie/toolbridge.git
+cd toolbridge
+
+npm install
+
+cp env.example .env
+
+gedit .env
+
+# after you edit your env file then...
+
+npm start
+
+
