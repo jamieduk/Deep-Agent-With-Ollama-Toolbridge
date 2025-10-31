@@ -1,6 +1,7 @@
 
-
 Deep Agent CLI: Coding Assistant with Memory
+
+https://github.com/jamieduk/Deep-Agent-With-Ollama-Toolbridge
 
 
 # Auto Setup
@@ -61,6 +62,11 @@ This approach makes it easier to build sophisticated AI applications that can ha
 
 It's particularly useful when you need to build AI applications that go beyond simple single-prompt responses and require more complex reasoning and state management.
 (venv) jay@jnetai:~/Documents/Scripts/AI/Deep-Agent-Cli$ 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When using models that cant use tools youl need toolbridge
+
+Original found @ https://github.com/Oct4Pie/toolbridge
 
 
 
