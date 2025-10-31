@@ -15,6 +15,12 @@ https://app.tavily.com/home
 
 tvly-dev-CHANGE-API-KEYE-HERE< example api key (Edit in start.sh the export line if you need that!)
 
+Also when using cloud models with ollama you will need to pull the model and login to ollama site when asked so youl need to update the ollama and then pull model
+
+
+curl -fsSL https://ollama.com/install.sh | sh
+
+ollama pull minimax-m2:cloud
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
