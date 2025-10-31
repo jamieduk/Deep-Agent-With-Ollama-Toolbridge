@@ -27,4 +27,4 @@ crontab -e
 
 @reboot sleep 290 && /home/<USERNAME-HERE>/Documents/Scripts/AI/toolbridge/start.sh
 
-
+you will need to update the path in start.sh so it workscorrectly via crontab / cronjob!
