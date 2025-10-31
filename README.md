@@ -6,7 +6,7 @@ This creates a robust, memory-enabled coding and research assistant powered by *
 
 ## 🔑 Prerequisite: API Key Setup (Tavily)
 
-This project requires a **search API key** to enable web-grounding and research functionality.
+This project can use an optional search API key to enable web-grounding and research functionality.
 
 1. Obtain your API key from [Tavily AI](https://tavily.com).
 2. The key must be set as an environment variable in your `start.sh` file.
