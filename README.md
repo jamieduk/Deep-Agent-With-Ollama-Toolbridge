@@ -18,6 +18,9 @@ export TAVILY_API_KEY="tvly-dev-CHANGE-API-KEYE-HERE"
 If you have all prerequisites installed (Python 3.x, Ollama), the auto-setup script will handle environment creation and dependency installation:
 
 bash
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull minimax-m2:cloud
+
 ./setup.sh
 🛠️ Manual Setup
 If you prefer more control, follow these steps to manually configure the environment.
