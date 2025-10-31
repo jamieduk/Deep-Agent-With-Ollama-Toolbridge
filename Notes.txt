@@ -1,0 +1,72 @@
+
+
+Deep Agent CLI: Coding Assistant with Memory
+
+
+# Auto Setup
+
+./setup.sh 
+
+
+API Key required from site....
+
+https://app.tavily.com/home
+
+tvly-dev-CHANGE-API-KEYE-HERE< example api key (Edit in start.sh the export line if you need that!)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Manual Setup
+
+python -m venv venv
+source venv/bin/activate
+pip install deepagents tavily
+pip install -U langchain-ollama
+
+
+./start.sh
+
+Example output:
+
+./start.sh 
+Virtual Environment Setup and ready!
+LangGraph is a library for building **stateful, multi-agent applications** with Large Language Models (LLMs). It's part of the LangChain ecosystem and is designed to help developers create complex AI workflows that can:
+
+## Key Features:
+
+1. **State Management**: Maintains state across multiple LLM calls or agent interactions
+2. **Multi-Agent Workflows**: Enables coordination between multiple AI agents working together
+3. **Graph-Based Architecture**: Uses a graph structure to define complex workflows and decision trees
+4. **Human-in-the-Loop**: Allows for human intervention and approval at various stages
+5. **Persistence**: Can save and resume workflows
+6. **Streaming**: Supports real-time streaming of responses
+
+## Common Use Cases:
+
+- **Customer Service Bots**: Multi-step conversations that remember context
+- **Content Creation Pipelines**: Sequential workflows for research → writing → editing
+- **Data Analysis Agents**: Multi-agent systems where different agents specialize in different aspects
+- **Code Generation Systems**: Complex coding workflows with testing and refinement loops
+- **Research Assistants**: Multi-step research processes with source verification
+
+## How it Works:
+
+LangGraph allows you to define your application as a graph where:
+- **Nodes** represent LLM calls, agent actions, or functions
+- **Edges** define the flow between these actions
+- **State** is passed and updated throughout the graph execution
+
+This approach makes it easier to build sophisticated AI applications that can handle complex, multi-step tasks while maintaining context and coordinating between different components.
+
+It's particularly useful when you need to build AI applications that go beyond simple single-prompt responses and require more complex reasoning and state management.
+(venv) jay@jnetai:~/Documents/Scripts/AI/Deep-Agent-Cli$ 
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://www.youtube.com/watch?v=IrnacLa9PJc
+
+https://github.com/langchain-ai/deepagents
+
