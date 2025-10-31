@@ -11,7 +11,7 @@ cp env.example .env
 
 gedit .env
 
-# after you edit your env file then...
+# after you edit your env file (make sure its set to use ollama and the toolbridge on port 4000 like in the python script, then...
 
 npm start
 
