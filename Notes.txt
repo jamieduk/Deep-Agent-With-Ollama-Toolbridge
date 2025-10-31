@@ -22,7 +22,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ollama pull minimax-m2:cloud
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Manual Setup
 
@@ -67,16 +67,14 @@ LangGraph allows you to define your application as a graph where:
 This approach makes it easier to build sophisticated AI applications that can handle complex, multi-step tasks while maintaining context and coordinating between different components.
 
 It's particularly useful when you need to build AI applications that go beyond simple single-prompt responses and require more complex reasoning and state management.
-(venv) jay@jnetai:~/Documents/Scripts/AI/Deep-Agent-Cli$ 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 When using models that cant use tools youl need toolbridge
 
 Original found @ https://github.com/Oct4Pie/toolbridge
 
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 https://www.youtube.com/watch?v=IrnacLa9PJc
 
