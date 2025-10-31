@@ -18,32 +18,27 @@ export TAVILY_API_KEY="tvly-dev-CHANGE-API-KEYE-HERE"
 If you have all prerequisites installed (Python 3.x, Ollama), the auto-setup script will handle environment creation and dependency installation:
 
 bash
-Copy code
 ./setup.sh
 🛠️ Manual Setup
 If you prefer more control, follow these steps to manually configure the environment.
 
 1. Create and Activate Virtual Environment
 bash
-Copy code
 python -m venv venv
 source venv/bin/activate
 2. Install Required Libraries
 bash
-Copy code
 pip install deepagents tavily
 pip install -U langchain-ollama
 3. Start the Deep Agent CLI
 Ensure your start.sh file includes your Tavily API key, then run:
 
 bash
-Copy code
 ./start.sh
 💻 Example Execution Output
 The script activates the environment and initializes the LangGraph architecture:
 
 bash
-Copy code
 ./start.sh
 Virtual Environment Setup and ready!
 
@@ -70,6 +65,8 @@ This combined project utilizes Toolbridge to enhance compatibility between model
 
 Toolbridge is required when using models that do not natively support tool calling (function/tool use).
 It acts as an intermediary, allowing such models to interact with external tools and functions within the Deep Agent pipeline.
+
+Read Notes.txt for more help in setting up ollama and getting the cloud model
 
 Original Toolbridge Repository: Oct4Pie/toolbridge
 
